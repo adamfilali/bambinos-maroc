@@ -145,35 +145,32 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }, 4000);
   };
 
-const fetchAllData = () => {
-setLoading(true);
-try {
-// Chargement direct forcé pour s'assurer que les données statiques écrasent l'état initial vide
-setProducts((prodRes?.default || prodRes || []) as Product[]);
-setCategories((catRes?.default || catRes || []) as Category[]);
-setSubcategories((subRes?.default || subRes || []) as Subcategory[]);
-setCatalogues((catlRes?.default || catlRes || []) as Catalogue[]);
-setPages((pageRes?.default || pageRes || []) as CustomPage[]);
-setMenu((menuRes?.default || menuRes || []) as MenuItem[]); 
+  const fetchAllData = () => {
+    setLoading(true);
+    try {
+      // Injection directe et sécurisée des modules JSON importés
+      if (prodRes) setProducts((prodRes as any).default || prodRes);
+      if (catRes) setCategories((catRes as any).default || catRes);
+      if (subRes) setSubcategories((subRes as any).default || subRes);
+      if (catlRes) setCatalogues((catlRes as any).default || catlRes);
+      if (pageRes) setPages((pageRes as any).default || pageRes);
+      if (menuRes) setMenu((menuRes as any).default || menuRes);
+      if (hpRes) setHomepage((hpRes as any).default || hpRes);
+      if (setRes) setSettings((setRes as any).default || setRes);
+      if (banRes) setBanners((banRes as any).default || banRes);
+      if (sliRes) setSliders((sliRes as any).default || sliRes);
+      if (compRes) setCompany((compRes as any).default || compRes);
+      if (cntRes) setContacts((cntRes as any).default || cntRes);
+      if (galRes) setGallery((galRes as any).default || galRes);
+      if (usrRes) setUsers((usrRes as any).default || usrRes);
+      if (histRes) setHistory((histRes as any).default || histRes);
+    } catch (err) {
+      console.error('Failed to parse static Bambinos data:', err);
+    } finally {
+      setLoading(false);
+    }
+  };
 
-setHomepage((hpRes?.default || hpRes || null) as HomepageData);
-setSettings((setRes?.default || setRes || null) as Settings);
-
-setBanners((banRes?.default || banRes || []) as Banner[]);
-setSliders((sliRes?.default || sliRes || []) as Slider[]);
-setCompany((compRes?.default || compRes || null) as CompanyInfo);
-setContacts((cntRes?.default || cntRes || []) as ContactMessage[]);
-setGallery((galRes?.default || galRes || []) as GalleryItem[]);
-setUsers((usrRes?.default || usrRes || []) as User[]);
-setHistory((histRes?.default || histRes || []) as HistoryLog[]);
-
-} catch (err) {
-console.error('Failed to parse static Bambinos data:', err);
-showToast('Erreur d'injection des données statiques', 'error');
-} finally {
-setLoading(false);
-}
-};
 
   useEffect(() => {
     fetchAllData();
