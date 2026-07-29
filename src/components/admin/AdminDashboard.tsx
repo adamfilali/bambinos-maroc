@@ -114,8 +114,8 @@ export const AdminDashboard: React.FC = () => {
     mapEmbedUrl: company?.mapEmbedUrl || '',
     instagram: company?.socialLinks?.instagram || 'https://instagram.com/bambinos.ma',
     facebook: company?.socialLinks?.facebook || 'https://facebook.com/bambinos.ma',
-    tiktok: company?.socialLinks?.tiktok || '',
-    youtube: company?.socialLinks?.youtube || ''
+    tiktok: company?.socialLinks?.tiktok || 'https://tiktok.com/bambinos.ma',
+    youtube: company?.socialLinks?.youtube || 'https://youtube.com/bambinos.ma'
   });
 
   useEffect(() => {
@@ -132,8 +132,8 @@ export const AdminDashboard: React.FC = () => {
         mapEmbedUrl: company.mapEmbedUrl || '',
         instagram: company.socialLinks?.instagram || 'https://instagram.com/bambinos.ma',
         facebook: company.socialLinks?.facebook || 'https://facebook.com/bambinos.ma',
-        tiktok: company.socialLinks?.tiktok || '',
-        youtube: company.socialLinks?.youtube || ''
+    tiktok: company?.socialLinks?.tiktok || 'https://tiktok.com/bambinos.ma',
+    youtube: company?.socialLinks?.youtube || 'https://youtube.com/bambinos.ma'
       });
     }
   }, [company]);
@@ -143,7 +143,7 @@ export const AdminDashboard: React.FC = () => {
     title: homepage?.hero?.title || '',
     subtitle: homepage?.hero?.subtitle || '',
     eyebrow: homepage?.hero?.eyebrow || "BAMBINOS — Créateur d'Espace Sur Mesure",
-    bgImage: homepage?.hero?.bgImage || '/uploads/images/bambinos_hero_room_ban.jpg',
+    bgImage: homepage?.hero?.bgImage || '/uploads/images/banner_promo_ban.jpg',
     bgVideo: homepage?.hero?.bgVideo || '',
     ctaText: homepage?.hero?.ctaText || 'Découvrir',
     ctaUrl: homepage?.hero?.ctaUrl || '#catalogue',
