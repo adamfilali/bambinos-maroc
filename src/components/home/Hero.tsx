@@ -51,7 +51,7 @@ export const Hero: React.FC = () => {
           />
         ) : (
           <img
-            src={hero.bgImage || "/uploads/images/bambinos_promo_ban"}
+            src={hero.bgImage || "/uploads/images/bbanner_promo_ban.jpg"}
             alt="Bambinos Aménagement sur mesure"
             className="w-full h-full object-cover object-center"
           />
