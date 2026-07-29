@@ -157,7 +157,7 @@ export const AdminDashboard: React.FC = () => {
         title: homepage.hero.title || '',
         subtitle: homepage.hero.subtitle || '',
         eyebrow: homepage.hero.eyebrow || "BAMBINOS — Créateur d'Espace Sur Mesure",
-        bgImage: homepage.hero.bgImage || '/uploads/images/bambinos_hero_room_ban.jpg',
+        bgImage: homepage.hero.bgImage || '/uploads/images/banner_promo_ban.jpg',
         bgVideo: homepage.hero.bgVideo || '',
         ctaText: homepage.hero.ctaText || 'Découvrir',
         ctaUrl: homepage.hero.ctaUrl || '#catalogue',
@@ -187,7 +187,7 @@ export const AdminDashboard: React.FC = () => {
       title: "Créateur d'espaces d'exception pour vos enfants",
       subtitle: "Du mobilier haut de gamme fabriqué sur-mesure à Casablanca : chambres féeriques, lits cabanes, dressings et bureaux d'étude.",
       eyebrow: "BAMBINOS — Créateur d'Espace Sur Mesure",
-      bgImage: "/uploads/images/bambinos_hero_room_ban.jpg",
+      bgImage: "/uploads/images/banner_promo_ban.jpg",
       bgVideo: "",
       ctaText: "Découvrir la Collection",
       ctaUrl: "#catalogue",
@@ -1284,7 +1284,7 @@ export const AdminDashboard: React.FC = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="p-4 bg-[#001830] rounded-2xl border border-slate-800 space-y-3">
                       <div className="flex items-center justify-between">
-                        <label className="text-slate-200 font-bold block">Image de fond HD (`/uploads/hero/`)</label>
+                        <label className="text-slate-200 font-bold block">Image de fond HD (`/uploads/banners/`)</label>
                         {heroForm.bgImage && (
                           <button
                             type="button"
@@ -1418,7 +1418,7 @@ export const AdminDashboard: React.FC = () => {
                   <span>Workflow de Déploiement Vercel & GitHub</span>
                 </h3>
                 <p className="text-xs text-slate-300 leading-relaxed">
-                  Conformément aux directives d'architecture Bambinos, aucune écriture directe risquée n'a lieu sur les serveurs de production Vercel. Toutes les modifications effectuées dans cet Espace Admin local enregistrent proprement les fichiers dans votre projet.
+                  Khir-Eddine NEJJARI.
                 </p>
 
                 <div className="p-4 bg-[#001830] rounded-2xl border border-slate-800 space-y-3 font-mono text-xs text-slate-300">
