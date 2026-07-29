@@ -1,69 +1,69 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import {
-  Product,
-  Category,
-  Subcategory,
-  Catalogue,
-  CustomPage,
-  MenuItem,
-  HomepageData,
-  Settings,
-  Banner,
-  Slider,
-  CompanyInfo,
-  ContactMessage,
-  GalleryItem,
-  User,
-  HistoryLog
-} from '../types';
+Product,
+Category,
+Subcategory,
+Catalogue,
+CustomPage,
+MenuItem,
+HomepageData,
+Settings,
+Banner,
+Slider,
+CompanyInfo,
+ContactMessage,
+GalleryItem,
+User,
+HistoryLog
+} from '../types'; 
 
-// Importation directe des fichiers JSON locaux (Vite résout et parse le contenu automatiquement)
-import prodRes from '../data/products.json';
-import catRes from '../data/categories.json';
-import subRes from '../data/subcategories.json';
-import catlRes from '../data/catalogues.json';
-import pageRes from '../data/pages.json';
-import menuRes from '../data/menu.json';
-import hpRes from '../data/homepage.json';
-import setRes from '../data/settings.json';
-import banRes from '../data/banners.json';
-import sliRes from '../data/sliders.json';
-import compRes from '../data/company.json';
-import cntRes from '../data/contacts.json';
-import galRes from '../data/gallery.json';
-import usrRes from '../data/users.json';
-import histRes from '../data/history.json';
+// Importation directe corrigée : on remonte de 2 niveaux (context/ -> src/ -> racine/) pour atteindre le dossier data
+import prodRes from '../../data/products.json';
+import catRes from '../../data/categories.json';
+import subRes from '../../data/subcategories.json';
+import catlRes from '../../data/catalogues.json';
+import pageRes from '../../data/pages.json';
+import menuRes from '../../data/menu.json';
+import hpRes from '../../data/homepage.json';
+import setRes from '../../data/settings.json';
+import banRes from '../../data/banners.json';
+import sliRes from '../../data/sliders.json';
+import compRes from '../../data/company.json';
+import cntRes from '../../data/contacts.json';
+import galRes from '../../data/gallery.json';
+import usrRes from '../../data/users.json';
+import histRes from '../../data/history.json'; 
 
 interface AuthUser {
-  id: string;
-  username: string;
-  role: string;
-  token: string;
-}
+id: string;
+username: string;
+role: string;
+token: string;
+} 
 
 interface Toast {
-  id: string;
-  type: 'success' | 'error' | 'info';
-  message: string;
-}
+id: string;
+type: 'success' | 'error' | 'info';
+message: string;
+} 
 
 interface DataContextType {
-  products: Product[];
-  categories: Category[];
-  subcategories: Subcategory[];
-  catalogues: Catalogue[];
-  pages: CustomPage[];
-  menu: MenuItem[];
-  homepage: HomepageData | null;
-  settings: Settings | null;
-  banners: Banner[];
-  sliders: Slider[];
-  company: CompanyInfo | null;
-  contacts: ContactMessage[];
-  gallery: GalleryItem[];
-  users: User[];
-  history: HistoryLog[];
-  loading: boolean;
+products: Product[];
+categories: Category[];
+subcategories: Subcategory[];
+catalogues: Catalogue[];
+pages: CustomPage[];
+menu: MenuItem[];
+homepage: HomepageData | null;
+settings: Settings | null;
+banners: Banner[];
+sliders: Slider[];
+company: CompanyInfo | null;
+contacts: ContactMessage[];
+gallery: GalleryItem[];
+users: User[];
+history: HistoryLog[];
+loading: boolean;
   
   // Auth
   authUser: AuthUser | null;
