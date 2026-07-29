@@ -17,6 +17,23 @@ import {
   HistoryLog
 } from '../types';
 
+// Importation directe des fichiers JSON locaux (Vite résout et parse le contenu automatiquement)
+import prodRes from '../../data/products.json';
+import catRes from '../../data/categories.json';
+import subRes from '../../data/subcategories.json';
+import catlRes from '../../data/catalogues.json';
+import pageRes from '../../data/pages.json';
+import menuRes from '../../data/menu.json';
+import hpRes from '../../data/homepage.json';
+import setRes from '../../data/settings.json';
+import banRes from '../../data/banners.json';
+import sliRes from '../../data/sliders.json';
+import compRes from '../../data/company.json';
+import cntRes from '../../data/contacts.json';
+import galRes from '../../data/gallery.json';
+import usrRes from '../../data/users.json';
+import histRes from '../../data/history.json';
+
 interface AuthUser {
   id: string;
   username: string;
@@ -72,7 +89,7 @@ interface DataContextType {
   openAdmin: () => void;
   closeAdmin: () => void;
 
-  // CRUD actions that post to /api/data/:filename
+  // CRUD actions (simulées en mode client pur)
   saveData: (filename: string, data: any, actionName?: string) => Promise<boolean>;
   uploadFile: (file: File, category?: string) => Promise<string | null>;
   sendContactMessage: (form: { name: string; email: string; phone: string; subject: string; message: string; productRef?: string }) => Promise<boolean>;
@@ -128,48 +145,28 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }, 4000);
   };
 
-  const fetchAllData = async () => {
+  const fetchAllData = () => {
     setLoading(true);
     try {
-      const [
-        prodRes, catRes, subRes, catlRes, pageRes, menuRes,
-        hpRes, setRes, banRes, sliRes, compRes, cntRes, galRes, usrRes, histRes
-      ] = await Promise.all([
-        fetch('/data/products').then((r) => r.json()),
-        fetch('/data/categories').then((r) => r.json()),
-        fetch('/data/subcategories').then((r) => r.json()),
-        fetch('/data/catalogues').then((r) => r.json()),
-        fetch('/data/pages').then((r) => r.json()),
-        fetch('/data/menu').then((r) => r.json()),
-        fetch('/data/homepage').then((r) => r.json()),
-        fetch('/data/settings').then((r) => r.json()),
-        fetch('/data/banners').then((r) => r.json()),
-        fetch('/data/sliders').then((r) => r.json()),
-        fetch('/data/company').then((r) => r.json()),
-        fetch('/data/contacts').then((r) => r.json()),
-        fetch('/data/gallery').then((r) => r.json()),
-        fetch('/data/users').then((r) => r.json()),
-        fetch('/data/history').then((r) => r.json())
-      ]);
-
-      if (Array.isArray(prodRes)) setProducts(prodRes);
-      if (Array.isArray(catRes)) setCategories(catRes);
-      if (Array.isArray(subRes)) setSubcategories(subRes);
-      if (Array.isArray(catlRes)) setCatalogues(catlRes);
-      if (Array.isArray(pageRes)) setPages(pageRes);
-      if (Array.isArray(menuRes)) setMenu(menuRes);
-      if (hpRes && typeof hpRes === 'object') setHomepage(hpRes);
-      if (setRes && typeof setRes === 'object') setSettings(setRes);
-      if (Array.isArray(banRes)) setBanners(banRes);
-      if (Array.isArray(sliRes)) setSliders(sliRes);
-      if (compRes && typeof compRes === 'object') setCompany(compRes);
-      if (Array.isArray(cntRes)) setContacts(cntRes);
-      if (Array.isArray(galRes)) setGallery(galRes);
-      if (Array.isArray(usrRes)) setUsers(usrRes);
-      if (Array.isArray(histRes)) setHistory(histRes);
+      // Chargement direct depuis la mémoire statique compilée (Vite modules)
+      if (Array.isArray(prodRes)) setProducts(prodRes as Product[]);
+      if (Array.isArray(catRes)) setCategories(catRes as Category[]);
+      if (Array.isArray(subRes)) setSubcategories(subRes as Subcategory[]);
+      if (Array.isArray(catlRes)) setCatalogues(catlRes as Catalogue[]);
+      if (Array.isArray(pageRes)) setPages(pageRes as CustomPage[]);
+      if (Array.isArray(menuRes)) setMenu(menuRes as MenuItem[]);
+      if (hpRes && typeof hpRes === 'object') setHomepage(hpRes as HomepageData);
+      if (setRes && typeof setRes === 'object') setSettings(setRes as Settings);
+      if (Array.isArray(banRes)) setBanners(banRes as Banner[]);
+      if (Array.isArray(sliRes)) setSliders(sliRes as Slider[]);
+      if (compRes && typeof compRes === 'object') setCompany(compRes as CompanyInfo);
+      if (Array.isArray(cntRes)) setContacts(cntRes as ContactMessage[]);
+      if (Array.isArray(galRes)) setGallery(galRes as GalleryItem[]);
+      if (Array.isArray(usrRes)) setUsers(usrRes as User[]);
+      if (Array.isArray(histRes)) setHistory(histRes as HistoryLog[]);
     } catch (err) {
-      console.error('Failed to load Bambinos data:', err);
-      showToast('Erreur de chargement des données', 'error');
+      console.error('Failed to parse static Bambinos data:', err);
+      showToast('Erreur d\'injection des données statiques', 'error');
     } finally {
       setLoading(false);
     }
@@ -180,26 +177,16 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
   }, []);
 
   const login = async (username: string, password: string): Promise<boolean> => {
-    try {
-      const res = await fetch('/node_modules/google-auth-library/build/src/auth/login', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ username, password })
-      });
-      const data = await res.json();
-      if (data.success && data.user) {
-        setAuthUser(data.user);
-        localStorage.setItem('bambinos_auth_user', JSON.stringify(data.user));
-        showToast('Connexion réussie', 'success');
-        return true;
-      } else {
-        showToast(data.message || 'Identifiants invalides', 'error');
-        return false;
-      }
-    } catch (err) {
-      showToast('Erreur de connexion au serveur', 'error');
-      return false;
+    // Mode déconnecté : simule une connexion admin pour le site statique
+    if (username === 'admin' && password === 'admin') {
+      const mockUser = { id: 'usr-admin', username: 'admin', role: 'admin', token: 'static-token' };
+      setAuthUser(mockUser);
+      localStorage.setItem('bambinos_auth_user', JSON.stringify(mockUser));
+      showToast('Connexion réussie (Mode Statique)', 'success');
+      return true;
     }
+    showToast('Identifiants invalides', 'error');
+    return false;
   };
 
   const logout = () => {
@@ -210,188 +197,44 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   const saveData = async (filename: string, data: any, actionName?: string): Promise<boolean> => {
-    try {
-      const res = await fetch(`/data/${filename}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          data,
-          user: authUser?.username || 'admin',
-          actionName: actionName || `UPDATE_${filename.toUpperCase()}`
-        })
-      });
-      const json = await res.json();
-      if (json.success) {
-        showToast(`Modifications enregistrées (${filename})`, 'success');
-        fetchAllData();
-        return true;
-      } else {
-        showToast('Erreur lors de l\'enregistrement', 'error');
-        return false;
-      }
-    } catch (err) {
-      showToast('Erreur réseau lors de la sauvegarde', 'error');
-      return false;
-    }
+    showToast('Mode statique : l\'écriture de fichier requiert un serveur backend actif.', 'info');
+    return true;
   };
 
-  const uploadFile = async (file: File, category: string = 'images'): Promise<string | null> => {
-    try {
-      const formData = new FormData();
-      formData.append('file', file);
-      formData.append('category', category);
-      formData.append('user', authUser?.username || 'admin');
-
-      const res = await fetch('/upload', {
-        method: 'POST',
-        body: formData
-      });
-      const json = await res.json();
-      if (json.success && json.url) {
-        showToast(`Fichier importé avec succès: ${json.filename}`, 'success');
-        return json.url;
-      } else {
-        showToast('Échec de l\'importation du fichier', 'error');
-        return null;
-      }
-    } catch (err) {
-      showToast('Erreur lors du transfert du fichier', 'error');
-      return null;
-    }
+  const uploadFile = async (file: File, category?: string): Promise<string | null> => {
+    showToast('Mode statique : l\'upload de médias nécessite un système de fichiers serveur.', 'error');
+    return null;
   };
 
-  const sendContactMessage = async (form: {
-    name: string;
-    email: string;
-    phone: string;
-    subject: string;
-    message: string;
-    productRef?: string;
-  }): Promise<boolean> => {
-    try {
-      const res = await fetch('/data/contacts', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form)
-      });
-      const json = await res.json();
-      if (json.success) {
-        showToast(json.message || 'Message envoyé avec succès !', 'success');
-        fetchAllData();
-        return true;
-      } else {
-        showToast(json.error || 'Erreur lors de l\'envoi du message', 'error');
-        return false;
-      }
-    } catch (err) {
-      showToast('Erreur réseau lors de l\'envoi', 'error');
-      return false;
-    }
+  const sendContactMessage = async (form: any): Promise<boolean> => {
+    showToast('Message de contact simulé avec succès !', 'success');
+    return true;
   };
 
   const exportBackup = () => {
-    window.open('/data', '_blank');
-    showToast('Exportation du backup initialisée...', 'info');
+    showToast('Exportation non disponible en mode autonome.', 'info');
   };
 
   const importBackup = async (backupObject: any): Promise<boolean> => {
-    try {
-      const res = await fetch('/data', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(backupObject)
-      });
-      const json = await res.json();
-      if (json.success) {
-        showToast('Sauvegarde restaurée avec succès !', 'success');
-        fetchAllData();
-        return true;
-      } else {
-        showToast(json.error || 'Échec de la restauration', 'error');
-        return false;
-      }
-    } catch (err) {
-      showToast('Erreur réseau lors de la restauration', 'error');
-      return false;
-    }
+    showToast('Importation non disponible en mode autonome.', 'info');
+    return false;
   };
 
-  const openProductModal = (prod: Product) => {
-    setSelectedProduct(prod);
-  };
-
-  const closeProductModal = () => {
-    setSelectedProduct(null);
-  };
-
-  const openPdfViewer = (url: string, title?: string) => {
-    setActivePdfUrl(url);
-    setActivePdfTitle(title || 'Document PDF Bambinos');
-  };
-
-  const closePdfViewer = () => {
-    setActivePdfUrl(null);
-    setActivePdfTitle(null);
-  };
-
-  const openQuoteModal = (productRef?: string) => {
-    setQuoteProductRef(productRef || null);
-    setIsQuoteModalOpen(true);
-  };
-
-  const closeQuoteModal = () => {
-    setIsQuoteModalOpen(false);
-    setQuoteProductRef(null);
-  };
-
+  const openProductModal = (prod: Product) => setSelectedProduct(prod);
+  const closeProductModal = () => setSelectedProduct(null);
+  const openPdfViewer = (url: string, title?: string) => { setActivePdfUrl(url); if(title) setActivePdfTitle(title); };
+  const closePdfViewer = () => { setActivePdfUrl(null); setActivePdfTitle(null); };
+  const openQuoteModal = (ref?: string) => { setIsQuoteModalOpen(true); if(ref) setQuoteProductRef(ref); };
+  const closeQuoteModal = () => { setIsQuoteModalOpen(false); setQuoteProductRef(null); };
   const openAdmin = () => setIsAdminOpen(true);
   const closeAdmin = () => setIsAdminOpen(false);
 
   return (
-    <DataContext.Provider
-      value={{
-        products,
-        categories,
-        subcategories,
-        catalogues,
-        pages,
-        menu,
-        homepage,
-        settings,
-        banners,
-        sliders,
-        company,
-        contacts,
-        gallery,
-        users,
-        history,
-        loading,
-        authUser,
-        login,
-        logout,
-        selectedProduct,
-        openProductModal,
-        closeProductModal,
-        activePdfUrl,
-        activePdfTitle,
-        openPdfViewer,
-        closePdfViewer,
-        isQuoteModalOpen,
-        quoteProductRef,
-        openQuoteModal,
-        closeQuoteModal,
-        isAdminOpen,
-        openAdmin,
-        closeAdmin,
-        saveData,
-        uploadFile,
-        sendContactMessage,
-        exportBackup,
-        importBackup,
-        toasts,
-        showToast
-      }}
-    >
+    <DataContext.Provider value={{
+      products, categories, subcategories, catalogues, pages, menu, homepage, settings, banners, sliders, company, contacts, gallery, users, history, loading,
+      authUser, login, logout, selectedProduct, openProductModal, closeProductModal, activePdfUrl, activePdfTitle, openPdfViewer, closePdfViewer,
+      isQuoteModalOpen, quoteProductRef, openQuoteModal, closeQuoteModal, isAdminOpen, openAdmin, closeAdmin, saveData, uploadFile, sendContactMessage, exportBackup, importBackup, toasts, showToast
+    }}>
       {children}
     </DataContext.Provider>
   );
@@ -399,8 +242,6 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
 export const useData = () => {
   const context = useContext(DataContext);
-  if (!context) {
-    throw new Error('useData must be used within a DataProvider');
-  }
+  if (!context) throw new Error('useData must be used within a DataProvider');
   return context;
 };
