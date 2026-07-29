@@ -563,7 +563,7 @@ async function startServer() {
 
   // Robots.txt endpoint
   app.get('/robots.txt', (req, res) => {
-    const baseUrl = process.env.APP_URL || 'https://bambinos-surmesure.ma';
+    const baseUrl = process.env.APP_URL || 'https://www.bambinos.ma';
     const txt = `User-agent: *
 Allow: /
 Sitemap: ${baseUrl}/sitemap.xml`;
