@@ -135,21 +135,21 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
         prodRes, catRes, subRes, catlRes, pageRes, menuRes,
         hpRes, setRes, banRes, sliRes, compRes, cntRes, galRes, usrRes, histRes
       ] = await Promise.all([
-        fetch('/api/data/products').then((r) => r.json()),
-        fetch('/api/data/categories').then((r) => r.json()),
-        fetch('/api/data/subcategories').then((r) => r.json()),
-        fetch('/api/data/catalogues').then((r) => r.json()),
-        fetch('/api/data/pages').then((r) => r.json()),
-        fetch('/api/data/menu').then((r) => r.json()),
-        fetch('/api/data/homepage').then((r) => r.json()),
-        fetch('/api/data/settings').then((r) => r.json()),
-        fetch('/api/data/banners').then((r) => r.json()),
-        fetch('/api/data/sliders').then((r) => r.json()),
-        fetch('/api/data/company').then((r) => r.json()),
-        fetch('/api/data/contacts').then((r) => r.json()),
-        fetch('/api/data/gallery').then((r) => r.json()),
-        fetch('/api/data/users').then((r) => r.json()),
-        fetch('/api/data/history').then((r) => r.json())
+        fetch('/data/products').then((r) => r.json()),
+        fetch('/data/categories').then((r) => r.json()),
+        fetch('/data/subcategories').then((r) => r.json()),
+        fetch('/data/catalogues').then((r) => r.json()),
+        fetch('/data/pages').then((r) => r.json()),
+        fetch('/data/menu').then((r) => r.json()),
+        fetch('/data/homepage').then((r) => r.json()),
+        fetch('/data/settings').then((r) => r.json()),
+        fetch('/data/banners').then((r) => r.json()),
+        fetch('/data/sliders').then((r) => r.json()),
+        fetch('/data/company').then((r) => r.json()),
+        fetch('/data/contacts').then((r) => r.json()),
+        fetch('/data/gallery').then((r) => r.json()),
+        fetch('/data/users').then((r) => r.json()),
+        fetch('/data/history').then((r) => r.json())
       ]);
 
       if (Array.isArray(prodRes)) setProducts(prodRes);
@@ -181,7 +181,7 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const login = async (username: string, password: string): Promise<boolean> => {
     try {
-      const res = await fetch('/api/auth/login', {
+      const res = await fetch('/node_modules/google-auth-library/build/src/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, password })
@@ -211,7 +211,7 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const saveData = async (filename: string, data: any, actionName?: string): Promise<boolean> => {
     try {
-      const res = await fetch(`/api/data/${filename}`, {
+      const res = await fetch(`/data/${filename}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -242,7 +242,7 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
       formData.append('category', category);
       formData.append('user', authUser?.username || 'admin');
 
-      const res = await fetch('/api/upload', {
+      const res = await fetch('/upload', {
         method: 'POST',
         body: formData
       });
@@ -269,7 +269,7 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
     productRef?: string;
   }): Promise<boolean> => {
     try {
-      const res = await fetch('/api/contact', {
+      const res = await fetch('/data/contacts', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form)
@@ -290,13 +290,13 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   const exportBackup = () => {
-    window.open('/api/backup/export', '_blank');
+    window.open('/data', '_blank');
     showToast('Exportation du backup initialisée...', 'info');
   };
 
   const importBackup = async (backupObject: any): Promise<boolean> => {
     try {
-      const res = await fetch('/api/backup/import', {
+      const res = await fetch('/data', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(backupObject)
