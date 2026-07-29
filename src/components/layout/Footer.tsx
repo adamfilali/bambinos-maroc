@@ -150,13 +150,13 @@ export const Footer: React.FC = () => {
             </h5>
             <ul className="space-y-2 text-slate-300">
               <li>
-                <a href={company?.socialLinks?.facebook || "https://facebook.com/bambinos.surmesure"} target="_blank" rel="noopener noreferrer" className="hover:text-[#38C0E3] transition-colors flex items-center gap-2">
+                <a href={company?.socialLinks?.facebook || "https://facebook.com/bambinos"} target="_blank" rel="noopener noreferrer" className="hover:text-[#38C0E3] transition-colors flex items-center gap-2">
                   <Facebook className="w-3.5 h-3.5 text-[#38C0E3]" />
                   <span>Facebook</span>
                 </a>
               </li>
               <li>
-                <a href={company?.socialLinks?.instagram || "https://instagram.com/bambinos_surmesure"} target="_blank" rel="noopener noreferrer" className="hover:text-[#38C0E3] transition-colors flex items-center gap-2">
+                <a href={company?.socialLinks?.instagram || "https://instagram.com/bambinos"} target="_blank" rel="noopener noreferrer" className="hover:text-[#38C0E3] transition-colors flex items-center gap-2">
                   <Instagram className="w-3.5 h-3.5 text-pink-400" />
                   <span>Instagram</span>
                 </a>
@@ -168,7 +168,7 @@ export const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href={company?.socialLinks?.youtube || "https://youtube.com/@bambinos_maroc"} target="_blank" rel="noopener noreferrer" className="hover:text-[#38C0E3] transition-colors flex items-center gap-2">
+                <a href={company?.socialLinks?.youtube || "https://youtube.com/@bambinos"} target="_blank" rel="noopener noreferrer" className="hover:text-[#38C0E3] transition-colors flex items-center gap-2">
                   <Youtube className="w-3.5 h-3.5 text-rose-500" />
                   <span>YouTube</span>
                 </a>

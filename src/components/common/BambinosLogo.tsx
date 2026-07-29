@@ -20,7 +20,7 @@ export const BambinosLogo: React.FC<BambinosLogoProps> = ({
 
   return (
     <div className={`inline-flex items-center gap-3 select-none ${className}`}>
-      {/* Ligne modifiée avec votre chemin d'image à la place du SVG */}
+      {/* Ligne modifiée avec votre chemin d'image à la place du png */}
       <img 
         src="/uploads/images/favicon.ico" 
         alt="Bambinos Logo" 

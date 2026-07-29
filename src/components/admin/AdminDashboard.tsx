@@ -516,7 +516,7 @@ export const AdminDashboard: React.FC = () => {
           </form>
 
           <div className="mt-6 pt-4 border-t border-slate-800 text-[11px] text-slate-400 text-center">
-            Identifiants par défaut : <span className="font-mono text-yellow-300">admin</span> / <span className="font-mono text-yellow-300">nejjari</span>
+            Identifiants par défaut : <span className="font-mono text-yellow-300">admin</span> / <span className="font-mono text-yellow-300"></span>
           </div>
         </div>
       </div>

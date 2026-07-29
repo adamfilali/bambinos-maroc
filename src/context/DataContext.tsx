@@ -18,21 +18,21 @@ import {
 } from '../types';
 
 // Importation directe des fichiers JSON locaux (Vite résout et parse le contenu automatiquement)
-import prodRes from '../../data/products.json';
-import catRes from '../../data/categories.json';
-import subRes from '../../data/subcategories.json';
-import catlRes from '../../data/catalogues.json';
-import pageRes from '../../data/pages.json';
-import menuRes from '../../data/menu.json';
-import hpRes from '../../data/homepage.json';
-import setRes from '../../data/settings.json';
-import banRes from '../../data/banners.json';
-import sliRes from '../../data/sliders.json';
-import compRes from '../../data/company.json';
-import cntRes from '../../data/contacts.json';
-import galRes from '../../data/gallery.json';
-import usrRes from '../../data/users.json';
-import histRes from '../../data/history.json';
+import prodRes from '../data/products.json';
+import catRes from '../data/categories.json';
+import subRes from '../data/subcategories.json';
+import catlRes from '../data/catalogues.json';
+import pageRes from '../data/pages.json';
+import menuRes from '../data/menu.json';
+import hpRes from '../data/homepage.json';
+import setRes from '../data/settings.json';
+import banRes from '../data/banners.json';
+import sliRes from '../data/sliders.json';
+import compRes from '../data/company.json';
+import cntRes from '../data/contacts.json';
+import galRes from '../data/gallery.json';
+import usrRes from '../data/users.json';
+import histRes from '../data/history.json';
 
 interface AuthUser {
   id: string;

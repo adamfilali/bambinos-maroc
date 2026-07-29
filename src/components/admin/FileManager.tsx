@@ -75,7 +75,7 @@ export const FileManager: React.FC = () => {
       id: 'f-5',
       name: 'logo_bambinos.svg',
       folder: 'logos',
-      url: '/uploads/logos/logo_bambinos.svg',
+      url: '/uploads/logos/logo_bambinos.png',
       size: '18 KB',
       type: 'svg',
       uploadedAt: '2026-07-28'
