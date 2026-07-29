@@ -145,32 +145,35 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }, 4000);
   };
 
-  const fetchAllData = () => {
-    setLoading(true);
-    try {
-      // Chargement direct depuis la mémoire statique compilée (Vite modules)
-      if (Array.isArray(prodRes)) setProducts(prodRes as Product[]);
-      if (Array.isArray(catRes)) setCategories(catRes as Category[]);
-      if (Array.isArray(subRes)) setSubcategories(subRes as Subcategory[]);
-      if (Array.isArray(catlRes)) setCatalogues(catlRes as Catalogue[]);
-      if (Array.isArray(pageRes)) setPages(pageRes as CustomPage[]);
-      if (Array.isArray(menuRes)) setMenu(menuRes as MenuItem[]);
-      if (hpRes && typeof hpRes === 'object') setHomepage(hpRes as HomepageData);
-      if (setRes && typeof setRes === 'object') setSettings(setRes as Settings);
-      if (Array.isArray(banRes)) setBanners(banRes as Banner[]);
-      if (Array.isArray(sliRes)) setSliders(sliRes as Slider[]);
-      if (compRes && typeof compRes === 'object') setCompany(compRes as CompanyInfo);
-      if (Array.isArray(cntRes)) setContacts(cntRes as ContactMessage[]);
-      if (Array.isArray(galRes)) setGallery(galRes as GalleryItem[]);
-      if (Array.isArray(usrRes)) setUsers(usrRes as User[]);
-      if (Array.isArray(histRes)) setHistory(histRes as HistoryLog[]);
-    } catch (err) {
-      console.error('Failed to parse static Bambinos data:', err);
-      showToast('Erreur d\'injection des données statiques', 'error');
-    } finally {
-      setLoading(false);
-    }
-  };
+const fetchAllData = () => {
+setLoading(true);
+try {
+// Chargement direct forcé pour s'assurer que les données statiques écrasent l'état initial vide
+setProducts((prodRes?.default || prodRes || []) as Product[]);
+setCategories((catRes?.default || catRes || []) as Category[]);
+setSubcategories((subRes?.default || subRes || []) as Subcategory[]);
+setCatalogues((catlRes?.default || catlRes || []) as Catalogue[]);
+setPages((pageRes?.default || pageRes || []) as CustomPage[]);
+setMenu((menuRes?.default || menuRes || []) as MenuItem[]); 
+
+setHomepage((hpRes?.default || hpRes || null) as HomepageData);
+setSettings((setRes?.default || setRes || null) as Settings);
+
+setBanners((banRes?.default || banRes || []) as Banner[]);
+setSliders((sliRes?.default || sliRes || []) as Slider[]);
+setCompany((compRes?.default || compRes || null) as CompanyInfo);
+setContacts((cntRes?.default || cntRes || []) as ContactMessage[]);
+setGallery((galRes?.default || galRes || []) as GalleryItem[]);
+setUsers((usrRes?.default || usrRes || []) as User[]);
+setHistory((histRes?.default || histRes || []) as HistoryLog[]);
+
+} catch (err) {
+console.error('Failed to parse static Bambinos data:', err);
+showToast('Erreur d'injection des données statiques', 'error');
+} finally {
+setLoading(false);
+}
+};
 
   useEffect(() => {
     fetchAllData();
