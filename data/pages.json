@@ -1,0 +1,22 @@
+[
+  {
+    "id": "page-1",
+    "title": "À Propos de Bambinos",
+    "slug": "a-propos",
+    "content": "Depuis plus de 15 ans, Bambinos imagine et fabrique des espaces d'exception dédiés à l'univers de l'enfant. Nos ateliers réunissent architectes d'intérieur, artisans ébénistes et designers pour créer des meubles uniques, durables et adaptés au développement de chaque enfant.",
+    "metaTitle": "À Propos | Bambinos – Créateur d'espaces sur mesure",
+    "metaDescription": "Découvrez l'histoire de Bambinos, nos ateliers de fabrication et notre engagement pour le mobilier enfant haut de gamme.",
+    "published": true,
+    "updatedAt": "2026-07-28T07:00:00Z"
+  },
+  {
+    "id": "page-2",
+    "title": "Notre Démarche Sur-Mesure",
+    "slug": "sur-mesure",
+    "content": "Chaque projet Bambinos commence par une écoute attentive. Nous modélisons votre pièce en 3D, sélectionnons les plus belles essences de bois et réalisons la fabrication sur mesure avant de procéder à l'installation à votre domicile par nos propres menuisiers.",
+    "metaTitle": "Processus Sur-Mesure | Bambinos",
+    "metaDescription": "De la conception 3D à la pose finale chez vous, découvrez comment nous réalisons la chambre sur-mesure de vos rêves.",
+    "published": true,
+    "updatedAt": "2026-07-28T07:00:00Z"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "hist-1785285659947",
+    "date": "2026-07-29",
+    "time": "01:40:59",
+    "user": "admin",
+    "action": "USER_LOGIN",
+    "target": "users",
+    "oldValue": "[\n  {\n    \"id\": \"usr-admin\",\n    \"username\": \"admin\",\n    \"role\": \"Administrator\",\n    \"lastLogin\": \"2026-07-29T00:23:28...",
+    "newValue": "[{\"id\":\"usr-admin\",\"username\":\"admin\",\"role\":\"Administrator\",\"lastLogin\":\"2026-07-29T00:40:59.942Z\"}]"
+  },
+  {
+    "id": "hist-1785285012832",
+    "date": "2026-07-29",
+    "time": "01:30:12",
+    "user": "admin",
+    "action": "RESTORE_FULL_BACKUP",
+    "target": "all",
+    "oldValue": "Previous State",
+    "newValue": "Restored from 2026-07-29T00:28:18.333Z"
+  },
+  {
+    "id": "hist-1785285012830",
+    "date": "2026-07-29",
+    "time": "01:30:12",
+    "user": "admin",
+    "action": "RESTORE_BACKUP",
+    "target": "gallery",
+    "oldValue": "[\n  {\n    \"id\": \"gal-1\",\n    \"title\": \"Chambre Lit Cabane & Mezzanine - Casablanca\",\n    \"category\": \"Chambre Complète\",...",
+    "newValue": "[{\"id\":\"gal-1\",\"title\":\"Chambre Lit Cabane & Mezzanine - Casablanca\",\"category\":\"Chambre Complète\",\"type\":\"before_after\"..."
+  },
+  {
+    "id": "hist-1785285012825",
+    "date": "2026-07-29",
+    "time": "01:30:12",
+    "user": "admin",
+    "action": "RESTORE_BACKUP",
+    "target": "company",
+    "oldValue": "{\n  \"name\": \"BAMBINOS – Créateur d'espaces sur mesure\",\n  \"slogan\": \"L'excellence du sur-mesure au service de l'enfance\"...",
+    "newValue": "{\"name\":\"BAMBINOS – Créateur d'espaces sur mesure\",\"slogan\":\"L'excellence du sur-mesure au service de l'enfance\",\"addres..."
+  },
+  {
+    "id": "hist-1785285012819",
+    "date": "2026-07-29",
+    "time": "01:30:12",
+    "user": "admin",
+    "action": "RESTORE_BACKUP",
+    "target": "sliders",
+    "oldValue": "[\n  {\n    \"id\": \"sli-1\",\n    \"title\": \"Chambres d'Enfants Sur-Mesure\",\n    \"subtitle\": \"Un univers poétique façonné auto...",
+    "newValue": "[{\"id\":\"sli-1\",\"title\":\"Chambres d'Enfants Sur-Mesure\",\"subtitle\":\"Un univers poétique façonné autour des rêves de votre..."
+  },
+  {
+    "id": "hist-1785285012816",
+    "date": "2026-07-29",
+    "time": "01:30:12",
+    "user": "admin",
+    "action": "RESTORE_BACKUP",
+    "target": "banners",
+    "oldValue": "[\n  {\n    \"id\": \"ban-1\",\n    \"title\": \"Offre Étude 3D Offerte\",\n    \"subtitle\": \"Pour tout projet de chambre sur-mesure ...",
+    "newValue": "[{\"id\":\"ban-1\",\"title\":\"Offre Étude 3D Offerte\",\"subtitle\":\"Pour tout projet de chambre sur-mesure validé ce mois-ci\",\"i..."
+  },
+  {
+    "id": "hist-1785285012812",
+    "date": "2026-07-29",
+    "time": "01:30:12",
+    "user": "admin",
+    "action": "RESTORE_BACKUP",
+    "target": "settings",
+    "oldValue": "{\n  \"siteName\": \"BAMBINOS\",\n  \"tagline\": \"Créateur d'espaces sur mesure pour enfants\",\n  \"logoUrl\": \"/uploads/logos/logo...",
+    "newValue": "{\"siteName\":\"BAMBINOS\",\"tagline\":\"Créateur d'espaces sur mesure pour enfants\",\"logoUrl\":\"/uploads/logos/logo_bambinos.sv..."
+  },
+  {
+    "id": "hist-1785285012809",
+    "date": "2026-07-29",
+    "time": "01:30:12",
+    "user": "admin",
+    "action": "RESTORE_BACKUP",
+    "target": "homepage",
+    "oldValue": "{\n  \"hero\": {\n    \"title\": \"Créateur d'espaces d'exception pour vos enfants\",\n    \"subtitle\": \"Du mobilier haut de gamme...",
+    "newValue": "{\"hero\":{\"title\":\"Créateur d'espaces d'exception pour vos enfants\",\"subtitle\":\"Du mobilier haut de gamme fabriqué sur-me..."
+  },
+  {
+    "id": "hist-1785285012805",
+    "date": "2026-07-29",
+    "time": "01:30:12",
+    "user": "admin",
+    "action": "RESTORE_BACKUP",
+    "target": "menu",
+    "oldValue": "[\n  {\n    \"id\": \"menu-1\",\n    \"label\": \"ACCUEIL\",\n    \"url\": \"#\",\n    \"order\": 1,\n    \"visible\": true,\n    \"visibilityMo...",
+    "newValue": "[{\"id\":\"menu-1\",\"label\":\"ACCUEIL\",\"url\":\"#\",\"order\":1,\"visible\":true,\"visibilityMode\":\"all\",\"icon\":\"home\",\"description\":..."
+  },
+  {
+    "id": "hist-1785285012801",
+    "date": "2026-07-29",
+    "time": "01:30:12",
+    "user": "admin",
+    "action": "RESTORE_BACKUP",
+    "target": "pages",
+    "oldValue": "[\n  {\n    \"id\": \"page-1\",\n    \"title\": \"À Propos de Bambinos\",\n    \"slug\": \"a-propos\",\n    \"content\": \"Depuis plus de 15...",
+    "newValue": "[{\"id\":\"page-1\",\"title\":\"À Propos de Bambinos\",\"slug\":\"a-propos\",\"content\":\"Depuis plus de 15 ans, Bambinos imagine et f..."
+  },
+  {
+    "id": "hist-1785285012796",
+    "date": "2026-07-29",
+    "time": "01:30:12",
+    "user": "admin",
+    "action": "RESTORE_BACKUP",
+    "target": "catalogues",
+    "oldValue": "[\n  {\n    \"id\": \"cat-pdf-1\",\n    \"title\": \"Collection Exclusive Bambinos 2026\",\n    \"description\": \"Le catalogue complet...",
+    "newValue": "[{\"id\":\"cat-pdf-1\",\"title\":\"Collection Exclusive Bambinos 2026\",\"description\":\"Le catalogue complet de nos créations d'e..."
+  },
+  {
+    "id": "hist-1785285012790",
+    "date": "2026-07-29",
+    "time": "01:30:12",
+    "user": "admin",
+    "action": "RESTORE_BACKUP",
+    "target": "subcategories",
+    "oldValue": "[\n  {\n    \"id\": \"sub-1\",\n    \"categoryId\": \"cat-1\",\n    \"name\": \"Chambre Bébé Évolutive\",\n    \"slug\": \"chambre-bebe\",\n  ...",
+    "newValue": "[{\"id\":\"sub-1\",\"categoryId\":\"cat-1\",\"name\":\"Chambre Bébé Évolutive\",\"slug\":\"chambre-bebe\",\"description\":\"Berceaux transf..."
+  },
+  {
+    "id": "hist-1785285012786",
+    "date": "2026-07-29",
+    "time": "01:30:12",
+    "user": "admin",
+    "action": "RESTORE_BACKUP",
+    "target": "categories",
+    "oldValue": "[\n  {\n    \"id\": \"cat-1\",\n    \"name\": \"Chambres sur Mesure\",\n    \"slug\": \"chambres-sur-mesure\",\n    \"description\": \"Conce...",
+    "newValue": "[{\"id\":\"cat-1\",\"name\":\"Chambres sur Mesure\",\"slug\":\"chambres-sur-mesure\",\"description\":\"Conception complète d'espaces de..."
+  },
+  {
+    "id": "hist-1785284873322",
+    "date": "2026-07-29",
+    "time": "01:27:53",
+    "user": "admin",
+    "action": "EDIT_CATEGORY_categorie-1785284855081",
+    "target": "categories",
+    "oldValue": "[\n  {\n    \"id\": \"cat-1\",\n    \"name\": \"Chambres sur Mesure\",\n    \"slug\": \"chambres-sur-mesure\",\n    \"description\": \"Conce...",
+    "newValue": "[{\"id\":\"cat-1\",\"name\":\"Chambres sur Mesure\",\"slug\":\"chambres-sur-mesure\",\"description\":\"Conception complète d'espaces de..."
+  },
+  {
+    "id": "hist-1785284808761",
+    "date": "2026-07-29",
+    "time": "01:26:48",
+    "user": "admin",
+    "action": "UPLOAD_PRODUCTS",
+    "target": "bg_mdf_workshop_1785260665305_1785284808752.jpg",
+    "oldValue": "None",
+    "newValue": "/uploads/products/bg_mdf_workshop_1785260665305_1785284808752.jpg"
+  },
+  {
+    "id": "hist-1785284739764",
+    "date": "2026-07-29",
+    "time": "01:25:39",
+    "user": "admin",
+    "action": "UPLOAD_VIDEOS",
+    "target": "hero_loop_1785284739694.mp4",
+    "oldValue": "None",
+    "newValue": "/uploads/videos/hero_loop_1785284739694.mp4"
+  },
+  {
+    "id": "hist-1785284653637",
+    "date": "2026-07-29",
+    "time": "01:24:13",
+    "user": "admin",
+    "action": "UPLOAD_PRODUCTS",
+    "target": "banner_promo_summer_1785284653613.jpg",
+    "oldValue": "None",
+    "newValue": "/uploads/products/banner_promo_summer_1785284653613.jpg"
+  },
+  {
+    "id": "hist-1785284608450",
+    "date": "2026-07-29",
+    "time": "01:23:28",
+    "user": "admin",
+    "action": "USER_LOGIN",
+    "target": "users",
+    "oldValue": "[\n  {\n    \"id\": \"usr-admin\",\n    \"username\": \"admin\",\n    \"role\": \"Administrator\",\n    \"lastLogin\": \"2026-07-28T07:00:00...",
+    "newValue": "[{\"id\":\"usr-admin\",\"username\":\"admin\",\"role\":\"Administrator\",\"lastLogin\":\"2026-07-29T00:23:28.446Z\"}]"
+  }
+]

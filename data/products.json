@@ -1,0 +1,190 @@
+[
+  {
+    "id": "prod-1",
+    "name": "Chambre Concept Nuage & Chêne Massif",
+    "reference": "BAM-2026-NUA",
+    "shortDescription": "Aménagement complet sur mesure combinant lit cabane surélevé, bureau ergonomique et dressing intégré.",
+    "fullDescription": "Inspirée de la douceur des intérieurs scandinaves et de l'exigence de l'artisanat haut de gamme, la suite 'Concept Nuage' offre une symphonie visuelle entre le chêne naturel blond et des finitions laquées écologiques. Cet aménagement optimise chaque centimètre carré : l'escalier latéral abrite des tiroirs à fermeture amortie, la niche sous-lit dissimule un espace étude rétroéclairé et le dressing attenant propose une penderie télescopique accessible aux enfants.",
+    "features": [
+      "Bois de chêne certifié FSC et laque hydro à zéro COV",
+      "Escalier coffre de rangement à fermetures freinées",
+      "Éclairage LED 3000K encastré à variateur d'intensité",
+      "Fabrication artisanale sur mesure sous 4 à 6 semaines",
+      "Garantie 10 ans sur la structure"
+    ],
+    "technicalSpecs": {
+      "Structure": "Chêne massif de Bourgogne & MDF haute densité (19mm)",
+      "Finitions": "Vernis mat écologique à l'eau (Norme EN 71-3)",
+      "Quincaillerie": "Blum Motion à amortissement intégré",
+      "Capacité Lit": "Jusqu'à 150 kg"
+    },
+    "dimensions": "Longueur: 285 cm x Profondeur: 140 cm x Hauteur: 210 cm (Adaptable)",
+    "weight": "210 kg (Poids total assemblé)",
+    "materials": [
+      "Chêne massif",
+      "MDF Écologique FSC",
+      "Peinture laquée hydro",
+      "Inox brossé"
+    ],
+    "colors": [
+      "Chêne Blond",
+      "Beige Lin",
+      "Blanc Coton",
+      "Vert Sauge"
+    ],
+    "price": 34500,
+    "promoPrice": 31900,
+    "images": [
+      "/uploads/images/bambinos_hero_room.jpg",
+      "/uploads/images/bambinos_dressing.jpg",
+      "/uploads/images/bambinos_desk.jpg"
+    ],
+    "pdfUrl": "/uploads/pdf/fiche_technique_concept_nuage.pdf",
+    "videoUrl": "",
+    "availability": "Sur mesure",
+    "displayOrder": 1,
+    "categoryId": "cat-1",
+    "subcategoryId": "sub-2",
+    "status": "active",
+    "isFeatured": true,
+    "createdAt": "2026-01-15T10:00:00Z",
+    "updatedAt": "2026-07-28T07:00:00Z"
+  },
+  {
+    "id": "prod-2",
+    "name": "Dressing Panoramique Sur-Mesure 'Horizon'",
+    "reference": "BAM-2026-HOR",
+    "shortDescription": "Dressing d'angle pour enfant et adolescent avec éclairage automatique LED et miroir biseauté.",
+    "fullDescription": "Le dressing Horizon redéfinit le rangement pour enfants avec une approche architecturale élégante. Conçu pour favoriser l'autonomie dès le plus jeune âge, il combine des tringles escamotables à hauteur réglable, des tiroirs vitrés pour les accessoires et un espace à chaussures ventilé. Ses façades aux lignes cannelées et ses poignées en laiton massif apportent une touche de luxe intemporel.",
+    "features": [
+      "Façades cannelées réalisées à la main",
+      "Capteurs de présence pour allumage automatique des LED",
+      "Portes amorties avec charnières invisibles 110°",
+      "Miroir de sécurité anti-éclats intégré",
+      "Configuration intérieure 100% personnalisable"
+    ],
+    "technicalSpecs": {
+      "Façades": "Medium MDF laqué mat ou placage Chêne naturel",
+      "Intérieur": "Mélaminé haute densité anti-rayures texturé textile",
+      "LED": "Bandeaux LED COB 24V extra-mats intégrés"
+    },
+    "dimensions": "Largeur: 240 cm x Profondeur: 60 cm x Hauteur: 245 cm",
+    "weight": "185 kg",
+    "materials": [
+      "Placage Chêne",
+      "MDF Laqué",
+      "Verre Trempé",
+      "Laiton Brossé"
+    ],
+    "colors": [
+      "Chêne Naturel",
+      "Blanc Casse",
+      "Gris Cashmere"
+    ],
+    "price": 28900,
+    "promoPrice": 26500,
+    "images": [
+      "/uploads/images/bambinos_dressing.jpg",
+      "/uploads/images/bambinos_hero_room.jpg"
+    ],
+    "pdfUrl": "/uploads/pdf/fiche_technique_horizon.pdf",
+    "availability": "Sur mesure",
+    "displayOrder": 2,
+    "categoryId": "cat-3",
+    "subcategoryId": "sub-4",
+    "status": "active",
+    "isFeatured": true,
+    "createdAt": "2026-02-10T11:00:00Z",
+    "updatedAt": "2026-07-28T07:00:00Z"
+  },
+  {
+    "id": "prod-3",
+    "name": "Bureau d'Étude & Bibliothèque 'Atelier Éveil'",
+    "reference": "BAM-2026-ATE",
+    "shortDescription": "Espace de travail ergonomique réglable avec rangements muraux suspendus et connectique dissimulée.",
+    "fullDescription": "Créé pour soutenir la concentration et la créativité de votre enfant de ses 6 ans à l'adolescence. L'Atelier Éveil comprend un plateau spacieux en chêne massif traité anti-taches, des passe-câbles intégrés avec passe-fil en silicone et des étagères alvéolaires ajustables sans outils.",
+    "features": [
+      "Plateau ergonomique avec bords doux adoucis",
+      "Niche passe-câbles dissimulée sous le plateau",
+      "Étagères modulables sur crémaillères invisibles",
+      "Support tablette/livre intégré au plateau",
+      "Traitement de surface ultra-résistant aux rayures"
+    ],
+    "technicalSpecs": {
+      "Plateau": "Chêne massif épaisseur 32mm",
+      "Piètement": "Acier thermolaqué ou Chêne massif",
+      "Charge Max": "80 kg répartis"
+    },
+    "dimensions": "Largeur: 160 cm x Profondeur: 65 cm x Hauteur bureau: 75 cm (Hauteur totale 200 cm)",
+    "weight": "75 kg",
+    "materials": [
+      "Chêne massif",
+      "Acier Poudré",
+      "Laiton"
+    ],
+    "colors": [
+      "Chêne Naturel",
+      "Beige Rosé",
+      "Terrazzo Vert"
+    ],
+    "price": 16800,
+    "images": [
+      "/uploads/images/bambinos_desk.jpg",
+      "/uploads/images/bambinos_hero_room.jpg"
+    ],
+    "pdfUrl": "/uploads/pdf/fiche_technique_atelier_eveil.pdf",
+    "availability": "Sur commande",
+    "displayOrder": 3,
+    "categoryId": "cat-4",
+    "subcategoryId": "sub-5",
+    "status": "active",
+    "isFeatured": true,
+    "createdAt": "2026-03-01T09:30:00Z",
+    "updatedAt": "2026-07-28T07:00:00Z"
+  },
+  {
+    "id": "prod-4",
+    "name": "Lit Superposé Sculptural 'Duetto'",
+    "reference": "BAM-2026-DUE",
+    "shortDescription": "Lit superposé pour fratrie avec niches de chevet individuelles et escalier sécurisé.",
+    "fullDescription": "Duetto est la solution ultime pour les chambres partagées élégantes. Chaque couchette dispose de sa propre liseuse orientable à commande tactile, d'une prise USB intégrée et d'une petite étagère pour les livres du soir. Les barrières de sécurité aux formes organiques évitent tout sentiment de confinement tout en assurant une sécurité absolue.",
+    "features": [
+      "Deux lits de dimension 90x200 cm (ou sur-mesure)",
+      "Liseuses LED individuelles à variateur tactile",
+      "Marches larges antidérapantes avec tiroirs intégrés",
+      "Panneaux acoustiques rembourrés en lin naturel en option",
+      "Sommiers à lattes en hêtre multiplis inclus"
+    ],
+    "technicalSpecs": {
+      "Structure": "Hêtre et Chêne massif certifiés PEFC",
+      "Hauteur sous plafond requise": "230 cm minimum",
+      "Sécurité": "Conforme à la norme NF EN 747-1+A1"
+    },
+    "dimensions": "Longueur: 250 cm x Largeur: 100 cm x Hauteur: 185 cm",
+    "weight": "190 kg",
+    "materials": [
+      "Hêtre massif",
+      "Chêne",
+      "Lin Écologique",
+      "Acier"
+    ],
+    "colors": [
+      "Blanc Lin",
+      "Chêne Miel",
+      "Bleu Fjord"
+    ],
+    "price": 32000,
+    "promoPrice": 29800,
+    "images": [
+      "/uploads/images/bambinos_hero_room.jpg"
+    ],
+    "availability": "Sur mesure",
+    "displayOrder": 4,
+    "categoryId": "cat-2",
+    "subcategoryId": "sub-3",
+    "status": "active",
+    "isFeatured": false,
+    "createdAt": "2026-03-15T14:00:00Z",
+    "updatedAt": "2026-07-28T07:00:00Z"
+  }
+]

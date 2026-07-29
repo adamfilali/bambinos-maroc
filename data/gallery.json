@@ -1,0 +1,21 @@
+[
+  {
+    "id": "gal-1",
+    "title": "Chambre Lit Cabane & Mezzanine - Casablanca",
+    "category": "Chambre Complète",
+    "type": "before_after",
+    "imageBefore": "/uploads/images/bambinos_hero_room.jpg",
+    "imageAfter": "/uploads/images/bambinos_hero_room.jpg",
+    "description": "Transformation complète d'une pièce de 12m² avec lit surélevé, penderie et bureau.",
+    "date": "2026-03-15"
+  },
+  {
+    "id": "gal-2",
+    "title": "Dressing & Rangement Sur-Mesure - Rabat",
+    "category": "Dressing",
+    "type": "photo",
+    "imageAfter": "/uploads/images/bambinos_dressing.jpg",
+    "description": "Dressing en chêne massif avec tiroirs amortis et casiers modulables Montessori.",
+    "date": "2026-04-10"
+  }
+]

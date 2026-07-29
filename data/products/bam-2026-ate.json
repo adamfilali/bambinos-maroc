@@ -1,0 +1,45 @@
+{
+  "id": "prod-3",
+  "name": "Bureau d'Étude & Bibliothèque 'Atelier Éveil'",
+  "reference": "BAM-2026-ATE",
+  "shortDescription": "Espace de travail ergonomique réglable avec rangements muraux suspendus et connectique dissimulée.",
+  "fullDescription": "Créé pour soutenir la concentration et la créativité de votre enfant de ses 6 ans à l'adolescence. L'Atelier Éveil comprend un plateau spacieux en chêne massif traité anti-taches, des passe-câbles intégrés avec passe-fil en silicone et des étagères alvéolaires ajustables sans outils.",
+  "features": [
+    "Plateau ergonomique avec bords doux adoucis",
+    "Niche passe-câbles dissimulée sous le plateau",
+    "Étagères modulables sur crémaillères invisibles",
+    "Support tablette/livre intégré au plateau",
+    "Traitement de surface ultra-résistant aux rayures"
+  ],
+  "technicalSpecs": {
+    "Plateau": "Chêne massif épaisseur 32mm",
+    "Piètement": "Acier thermolaqué ou Chêne massif",
+    "Charge Max": "80 kg répartis"
+  },
+  "dimensions": "Largeur: 160 cm x Profondeur: 65 cm x Hauteur bureau: 75 cm (Hauteur totale 200 cm)",
+  "weight": "75 kg",
+  "materials": [
+    "Chêne massif",
+    "Acier Poudré",
+    "Laiton"
+  ],
+  "colors": [
+    "Chêne Naturel",
+    "Beige Rosé",
+    "Terrazzo Vert"
+  ],
+  "price": 16800,
+  "images": [
+    "/uploads/images/bambinos_desk.jpg",
+    "/uploads/images/bambinos_hero_room.jpg"
+  ],
+  "pdfUrl": "/uploads/pdf/fiche_technique_atelier_eveil.pdf",
+  "availability": "Sur commande",
+  "displayOrder": 3,
+  "categoryId": "cat-4",
+  "subcategoryId": "sub-5",
+  "status": "active",
+  "isFeatured": true,
+  "createdAt": "2026-03-01T09:30:00Z",
+  "updatedAt": "2026-07-28T07:00:00Z"
+}

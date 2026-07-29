@@ -1,0 +1,6 @@
+{
+  "name": "BAMBINOS – Créateur d'espaces sur mesure",
+  "description": "Mobilier enfant, chambres sur mesure, dressings, bureaux et aménagement d'espaces haut de gamme pour enfants.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

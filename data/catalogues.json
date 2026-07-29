@@ -1,0 +1,22 @@
+[
+  {
+    "id": "cat-pdf-1",
+    "title": "Collection Exclusive Bambinos 2026",
+    "description": "Le catalogue complet de nos créations d'espaces sur mesure pour enfants, incluant chambres, lits cabanes et dressings.",
+    "coverImage": "/uploads/images/bambinos_hero_room.jpg",
+    "pdfUrl": "/uploads/pdf/catalogue_bambinos_2026.pdf",
+    "pageCount": 48,
+    "year": "2026",
+    "isFeatured": true
+  },
+  {
+    "id": "cat-pdf-2",
+    "title": "Guide des Matériaux & Finitions Écologiques",
+    "description": "Découvrez notre sélection de bois nobles, laques végétales et textiles certifiés Oeko-Tex.",
+    "coverImage": "/uploads/images/bambinos_dressing.jpg",
+    "pdfUrl": "/uploads/pdf/guide_materiaux_bambinos.pdf",
+    "pageCount": 24,
+    "year": "2026",
+    "isFeatured": false
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "id": "prod-1",
+  "name": "Chambre Concept Nuage & Chêne Massif",
+  "reference": "BAM-2026-NUA",
+  "shortDescription": "Aménagement complet sur mesure combinant lit cabane surélevé, bureau ergonomique et dressing intégré.",
+  "fullDescription": "Inspirée de la douceur des intérieurs scandinaves et de l'exigence de l'artisanat haut de gamme, la suite 'Concept Nuage' offre une symphonie visuelle entre le chêne naturel blond et des finitions laquées écologiques. Cet aménagement optimise chaque centimètre carré : l'escalier latéral abrite des tiroirs à fermeture amortie, la niche sous-lit dissimule un espace étude rétroéclairé et le dressing attenant propose une penderie télescopique accessible aux enfants.",
+  "features": [
+    "Bois de chêne certifié FSC et laque hydro à zéro COV",
+    "Escalier coffre de rangement à fermetures freinées",
+    "Éclairage LED 3000K encastré à variateur d'intensité",
+    "Fabrication artisanale sur mesure sous 4 à 6 semaines",
+    "Garantie 10 ans sur la structure"
+  ],
+  "technicalSpecs": {
+    "Structure": "Chêne massif de Bourgogne & MDF haute densité (19mm)",
+    "Finitions": "Vernis mat écologique à l'eau (Norme EN 71-3)",
+    "Quincaillerie": "Blum Motion à amortissement intégré",
+    "Capacité Lit": "Jusqu'à 150 kg"
+  },
+  "dimensions": "Longueur: 285 cm x Profondeur: 140 cm x Hauteur: 210 cm (Adaptable)",
+  "weight": "210 kg (Poids total assemblé)",
+  "materials": [
+    "Chêne massif",
+    "MDF Écologique FSC",
+    "Peinture laquée hydro",
+    "Inox brossé"
+  ],
+  "colors": [
+    "Chêne Blond",
+    "Beige Lin",
+    "Blanc Coton",
+    "Vert Sauge"
+  ],
+  "price": 34500,
+  "promoPrice": 31900,
+  "images": [
+    "/uploads/images/bambinos_hero_room.jpg",
+    "/uploads/images/bambinos_dressing.jpg",
+    "/uploads/images/bambinos_desk.jpg"
+  ],
+  "pdfUrl": "/uploads/pdf/fiche_technique_concept_nuage.pdf",
+  "videoUrl": "",
+  "availability": "Sur mesure",
+  "displayOrder": 1,
+  "categoryId": "cat-1",
+  "subcategoryId": "sub-2",
+  "status": "active",
+  "isFeatured": true,
+  "createdAt": "2026-01-15T10:00:00Z",
+  "updatedAt": "2026-07-28T07:00:00Z"
+}

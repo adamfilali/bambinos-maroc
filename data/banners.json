@@ -1,0 +1,12 @@
+[
+  {
+    "id": "ban-1",
+    "title": "Offre Étude 3D Offerte",
+    "subtitle": "Pour tout projet de chambre sur-mesure validé ce mois-ci",
+    "imageUrl": "/uploads/banners/banner_3d.jpg",
+    "linkUrl": "#contact",
+    "buttonText": "Profiter de l'offre",
+    "active": true,
+    "location": "top_bar"
+  }
+]

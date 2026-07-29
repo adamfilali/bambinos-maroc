@@ -1,0 +1,55 @@
+[
+  {
+    "id": "cat-1",
+    "name": "Chambres sur Mesure",
+    "slug": "chambres-sur-mesure",
+    "description": "Conception complète d'espaces de vie raffinés et évolutifs pour bébés, enfants et adolescents.",
+    "image": "/uploads/images/bambinos_hero_room.jpg",
+    "icon": "Bed",
+    "displayOrder": 1
+  },
+  {
+    "id": "cat-2",
+    "name": "Lits Mezzanine & Superposés",
+    "slug": "lits-mezzanine-superposes",
+    "description": "Structures intelligentes gain de place, cabanes ludiques et espaces nuit sur-mesure.",
+    "image": "/uploads/images/bambinos_hero_room.jpg",
+    "icon": "Layers",
+    "displayOrder": 2
+  },
+  {
+    "id": "cat-3",
+    "name": "Dressings & Rangements",
+    "slug": "dressings-rangements",
+    "description": "Dressings intégrés, armoires modulables et penderies conçues à la hauteur de vos enfants.",
+    "image": "/uploads/images/bambinos_dressing.jpg",
+    "icon": "Archive",
+    "displayOrder": 3
+  },
+  {
+    "id": "cat-4",
+    "name": "Bureaux & Bibliothèques",
+    "slug": "bureaux-bibliotheques",
+    "description": "Espaces d'apprentissage ergonomiques, coins lecture et bibliothèques d'éveil.",
+    "image": "/uploads/images/bambinos_desk.jpg",
+    "icon": "BookOpen",
+    "displayOrder": 4
+  },
+  {
+    "id": "cat-5",
+    "name": "Décorations & Accessoires",
+    "slug": "decorations-accessoires",
+    "description": "Luminaires doux, miroirs sécurisés, papiers peints poétiques et touches finales.",
+    "image": "/uploads/images/bambinos_desk.jpg",
+    "icon": "Sparkles",
+    "displayOrder": 5
+  },
+  {
+    "id": "cat-1785284855081",
+    "name": "Nouvelle Catégorie",
+    "slug": "categorie-1785284855081",
+    "description": "Description de la catégorie.",
+    "image": "/uploads/images/bambinos_hero_room.jpg",
+    "displayOrder": 6
+  }
+]

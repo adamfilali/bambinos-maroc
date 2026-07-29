@@ -1,0 +1,47 @@
+{
+  "id": "prod-2",
+  "name": "Dressing Panoramique Sur-Mesure 'Horizon'",
+  "reference": "BAM-2026-HOR",
+  "shortDescription": "Dressing d'angle pour enfant et adolescent avec éclairage automatique LED et miroir biseauté.",
+  "fullDescription": "Le dressing Horizon redéfinit le rangement pour enfants avec une approche architecturale élégante. Conçu pour favoriser l'autonomie dès le plus jeune âge, il combine des tringles escamotables à hauteur réglable, des tiroirs vitrés pour les accessoires et un espace à chaussures ventilé. Ses façades aux lignes cannelées et ses poignées en laiton massif apportent une touche de luxe intemporel.",
+  "features": [
+    "Façades cannelées réalisées à la main",
+    "Capteurs de présence pour allumage automatique des LED",
+    "Portes amorties avec charnières invisibles 110°",
+    "Miroir de sécurité anti-éclats intégré",
+    "Configuration intérieure 100% personnalisable"
+  ],
+  "technicalSpecs": {
+    "Façades": "Medium MDF laqué mat ou placage Chêne naturel",
+    "Intérieur": "Mélaminé haute densité anti-rayures texturé textile",
+    "LED": "Bandeaux LED COB 24V extra-mats intégrés"
+  },
+  "dimensions": "Largeur: 240 cm x Profondeur: 60 cm x Hauteur: 245 cm",
+  "weight": "185 kg",
+  "materials": [
+    "Placage Chêne",
+    "MDF Laqué",
+    "Verre Trempé",
+    "Laiton Brossé"
+  ],
+  "colors": [
+    "Chêne Naturel",
+    "Blanc Casse",
+    "Gris Cashmere"
+  ],
+  "price": 28900,
+  "promoPrice": 26500,
+  "images": [
+    "/uploads/images/bambinos_dressing.jpg",
+    "/uploads/images/bambinos_hero_room.jpg"
+  ],
+  "pdfUrl": "/uploads/pdf/fiche_technique_horizon.pdf",
+  "availability": "Sur mesure",
+  "displayOrder": 2,
+  "categoryId": "cat-3",
+  "subcategoryId": "sub-4",
+  "status": "active",
+  "isFeatured": true,
+  "createdAt": "2026-02-10T11:00:00Z",
+  "updatedAt": "2026-07-28T07:00:00Z"
+}

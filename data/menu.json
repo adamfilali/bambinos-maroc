@@ -1,0 +1,179 @@
+[
+  {
+    "id": "menu-1",
+    "label": "ACCUEIL",
+    "url": "#",
+    "order": 1,
+    "visible": true,
+    "visibilityMode": "all",
+    "icon": "home",
+    "description": "Page principale Bambinos Maroc"
+  },
+  {
+    "id": "menu-2",
+    "label": "NURSERIE",
+    "url": "#categories",
+    "order": 2,
+    "visible": true,
+    "visibilityMode": "all",
+    "icon": "baby",
+    "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=600&q=80",
+    "description": "Mobilier bébé & tout-petits sécurisé en MDF écologique",
+    "children": [
+      {
+        "id": "sub-2-1",
+        "label": "Lits bébé",
+        "url": "#categories",
+        "order": 1,
+        "visible": true,
+        "badge": "Bestseller",
+        "badgeColor": "emerald",
+        "icon": "bed"
+      },
+      {
+        "id": "sub-2-2",
+        "label": "Tables à langer",
+        "url": "#categories",
+        "order": 2,
+        "visible": true,
+        "icon": "layers"
+      },
+      {
+        "id": "sub-2-3",
+        "label": "Armoires bébé",
+        "url": "#categories",
+        "order": 3,
+        "visible": true,
+        "icon": "archive"
+      },
+      {
+        "id": "sub-2-4",
+        "label": "Commodes & Tables",
+        "url": "#categories",
+        "order": 4,
+        "visible": true,
+        "icon": "layout"
+      },
+      {
+        "id": "sub-2-5",
+        "label": "Décoration nurserie",
+        "url": "#categories",
+        "order": 5,
+        "visible": true,
+        "badge": "Nouveau",
+        "badgeColor": "sky",
+        "icon": "sparkles"
+      }
+    ]
+  },
+  {
+    "id": "menu-3",
+    "label": "CHAMBRES",
+    "url": "#categories",
+    "order": 3,
+    "visible": true,
+    "visibilityMode": "all",
+    "icon": "bed",
+    "image": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=600&q=80",
+    "description": "Chambres d'enfants fonctionnelles, lits cabanes & sur mesure"
+  },
+  {
+    "id": "menu-4",
+    "label": "BUREAUX",
+    "url": "#categories",
+    "order": 4,
+    "visible": true,
+    "visibilityMode": "all",
+    "icon": "desk",
+    "image": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=600&q=80",
+    "description": "Espaces d'étude ergonomiques & bibliothèques évolutives"
+  },
+  {
+    "id": "menu-5",
+    "label": "RANGEMENTS",
+    "url": "#categories",
+    "order": 5,
+    "visible": true,
+    "visibilityMode": "all",
+    "icon": "archive",
+    "image": "https://images.unsplash.com/photo-1558997519-83ea9252edf8?auto=format&fit=crop&w=600&q=80",
+    "description": "Dressings, placards & commodes optimisés sur mesure"
+  },
+  {
+    "id": "menu-6",
+    "label": "DÉCORATION",
+    "url": "#categories",
+    "order": 6,
+    "visible": true,
+    "visibilityMode": "all",
+    "icon": "sparkles",
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=600&q=80",
+    "description": "Luminaires, tapis & accessoires uniques pour chambre d'enfant"
+  },
+  {
+    "id": "menu-7",
+    "label": "CATALOGUES",
+    "url": "#catalogue",
+    "order": 7,
+    "visible": true,
+    "visibilityMode": "all",
+    "icon": "book",
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
+    "description": "Feuilletez nos éditions PDF & magazines interactifs Bambinos",
+    "children": [
+      {
+        "id": "sub-7-1",
+        "label": "Catalogue général PDF",
+        "url": "#catalogue",
+        "order": 1,
+        "visible": true,
+        "linkType": "pdf_download",
+        "icon": "book"
+      },
+      {
+        "id": "sub-7-2",
+        "label": "Édition Chambres & Lits",
+        "url": "#catalogue",
+        "order": 2,
+        "visible": true,
+        "icon": "bed"
+      },
+      {
+        "id": "sub-7-3",
+        "label": "Édition Nurserie",
+        "url": "#catalogue",
+        "order": 3,
+        "visible": true,
+        "icon": "baby"
+      },
+      {
+        "id": "sub-7-4",
+        "label": "Édition Bureaux",
+        "url": "#catalogue",
+        "order": 4,
+        "visible": true,
+        "icon": "desk"
+      },
+      {
+        "id": "sub-7-5",
+        "label": "Collections 2026",
+        "url": "#catalogue",
+        "order": 5,
+        "visible": true,
+        "badge": "2026",
+        "badgeColor": "sky",
+        "icon": "sparkles"
+      }
+    ]
+  },
+  {
+    "id": "menu-8",
+    "label": "CONTACTEZ-NOUS",
+    "url": "#contact",
+    "order": 8,
+    "visible": true,
+    "visibilityMode": "all",
+    "icon": "phone",
+    "description": "Service client & Showroom Casablanca"
+  }
+]

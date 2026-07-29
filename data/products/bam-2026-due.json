@@ -1,0 +1,45 @@
+{
+  "id": "prod-4",
+  "name": "Lit Superposé Sculptural 'Duetto'",
+  "reference": "BAM-2026-DUE",
+  "shortDescription": "Lit superposé pour fratrie avec niches de chevet individuelles et escalier sécurisé.",
+  "fullDescription": "Duetto est la solution ultime pour les chambres partagées élégantes. Chaque couchette dispose de sa propre liseuse orientable à commande tactile, d'une prise USB intégrée et d'une petite étagère pour les livres du soir. Les barrières de sécurité aux formes organiques évitent tout sentiment de confinement tout en assurant une sécurité absolue.",
+  "features": [
+    "Deux lits de dimension 90x200 cm (ou sur-mesure)",
+    "Liseuses LED individuelles à variateur tactile",
+    "Marches larges antidérapantes avec tiroirs intégrés",
+    "Panneaux acoustiques rembourrés en lin naturel en option",
+    "Sommiers à lattes en hêtre multiplis inclus"
+  ],
+  "technicalSpecs": {
+    "Structure": "Hêtre et Chêne massif certifiés PEFC",
+    "Hauteur sous plafond requise": "230 cm minimum",
+    "Sécurité": "Conforme à la norme NF EN 747-1+A1"
+  },
+  "dimensions": "Longueur: 250 cm x Largeur: 100 cm x Hauteur: 185 cm",
+  "weight": "190 kg",
+  "materials": [
+    "Hêtre massif",
+    "Chêne",
+    "Lin Écologique",
+    "Acier"
+  ],
+  "colors": [
+    "Blanc Lin",
+    "Chêne Miel",
+    "Bleu Fjord"
+  ],
+  "price": 32000,
+  "promoPrice": 29800,
+  "images": [
+    "/uploads/images/bambinos_hero_room.jpg"
+  ],
+  "availability": "Sur mesure",
+  "displayOrder": 4,
+  "categoryId": "cat-2",
+  "subcategoryId": "sub-3",
+  "status": "active",
+  "isFeatured": false,
+  "createdAt": "2026-03-15T14:00:00Z",
+  "updatedAt": "2026-07-28T07:00:00Z"
+}
