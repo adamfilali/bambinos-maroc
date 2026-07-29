@@ -1,82 +1,82 @@
 [
-  {
-    "id": "cat-pdf-2",
-    "title": "Guide des Matériaux & Finitions Écologiques",
-    "description": "Découvrez notre sélection de bois nobles, laques végétales et textiles certifiés Oeko-Tex.",
-    "coverImage": "/uploads/images/bambinos_dressing01.jpg",
-    "pdfUrl": "/uploads/pdf/guide_materiaux_bambinos.pdf",
-    "pageCount": 24,
-    "year": "2026",
-    "isFeatured": false
-  }
-  {
-    "id": "cat-pdf-2",
-    "title": "Guide des Matériaux & Finitions Écologiques",
-    "description": "Découvrez notre sélection de bois nobles, laques végétales et textiles certifiés Oeko-Tex.",
-    "coverImage": "/uploads/images/bambinos_dressing.jpg",
-    "pdfUrl": "/uploads/pdf/guide_materiaux_bambinos08.pdf",
-    "pageCount": 24,
-    "year": "2026",
-    "isFeatured": false
-  }
-  {
-    "id": "cat-pdf-2",
-    "title": "Guide des Matériaux & Finitions Écologiques",
-    "description": "Découvrez notre sélection de bois nobles, laques végétales et textiles certifiés Oeko-Tex.",
-    "coverImage": "/uploads/images/bambinos_dressing11.jpg",
-    "pdfUrl": "/uploads/pdf/guide_materiaux_bambinos15.pdf",
-    "pageCount": 24,
-    "year": "2026",
-    "isFeatured": false
-  }
-  {
-    "id": "cat-pdf-1",
-    "title": "Collection Exclusive Bambinos 2026",
-    "description": "Le catalogue complet de nos créations d'espaces sur mesure pour enfants, incluant chambres, lits cabanes et dressings.",
-    "coverImage": "/uploads/images/bambinos_hero_room.jpg",
-    "pdfUrl": "/uploads/pdf/catalogue_bambinos_2026.pdf",
-    "pageCount": 48,
-    "year": "2026",
-    "isFeatured": true
-  },
-  {
-    "id": "cat-pdf-2",
-    "title": "Guide des Matériaux & Finitions Écologiques",
-    "description": "Découvrez notre sélection de bois nobles, laques végétales et textiles certifiés Oeko-Tex.",
-    "coverImage": "/uploads/images/bambinos_dressing.jpg",
-    "pdfUrl": "/uploads/pdf/guide_materiaux_bambinos.pdf",
-    "pageCount": 24,
-    "year": "2026",
-    "isFeatured": false
-  }
-  {
-    "id": "cat-pdf-2",
-    "title": "Guide des Matériaux & Finitions Écologiques",
-    "description": "Découvrez notre sélection de bois nobles, laques végétales et textiles certifiés Oeko-Tex.",
-    "coverImage": "/uploads/images/bambinos_dressing40.jpg",
-    "pdfUrl": "/uploads/pdf/guide_materiaux_bambinos.pdf",
-    "pageCount": 24,
-    "year": "2026",
-    "isFeatured": false
-  }
-  {
-    "id": "cat-pdf-2",
-    "title": "Guide des Matériaux & Finitions Écologiques",
-    "description": "Découvrez notre sélection de bois nobles, laques végétales et textiles certifiés Oeko-Tex.",
-    "coverImage": "/uploads/images/bambinos_dressing06.jpg",
-    "pdfUrl": "/uploads/pdf/guide_materiaux_bambinos.pdf",
-    "pageCount": 24,
-    "year": "2026",
-    "isFeatured": false
-  }
-  {
-    "id": "cat-pdf-2",
-    "title": "Guide des Matériaux & Finitions Écologiques",
-    "description": "Découvrez notre sélection de bois nobles, laques végétales et textiles certifiés Oeko-Tex.",
-    "coverImage": "/uploads/images/bambinos_desk11.jpg",
-    "pdfUrl": "/uploads/pdf/guide_materiaux_bambinos.pdf",
-    "pageCount": 24,
-    "year": "2026",
-    "isFeatured": false
-  }
+{
+"id": "cat-pdf-1",
+"title": "Guide des Matériaux & Finitions Écologiques",
+"description": "Découvrez notre sélection de bois nobles, laques végétales et textiles certifiés Oeko-Tex.",
+"coverImage": "/uploads/images/bambinos_dressing01.jpg",
+"pdfUrl": "/uploads/pdf/guide_materiaux_bambinos.pdf",
+"pageCount": 12,
+"year": "2026",
+"isFeatured": false
+},
+{
+"id": "cat-pdf-2",
+"title": "Guide des Matériaux & Finitions Écologiques",
+"description": "Découvrez notre sélection de bois nobles, laques végétales et textiles certifiés Oeko-Tex.",
+"coverImage": "/uploads/images/bambinos_dressing.jpg",
+"pdfUrl": "/uploads/pdf/guide_materiaux_bambinos08.pdf",
+"pageCount": 24,
+"year": "2026",
+"isFeatured": false
+},
+{
+"id": "cat-pdf-3",
+"title": "Guide des Matériaux & Finitions Écologiques",
+"description": "Découvrez notre sélection de bois nobles, laques végétales et textiles certifiés Oeko-Tex.",
+"coverImage": "/uploads/images/bambinos_dressing11.jpg",
+"pdfUrl": "/uploads/pdf/guide_materiaux_bambinos15.pdf",
+"pageCount": 34,
+"year": "2026",
+"isFeatured": false
+},
+{
+"id": "cat-pdf-4",
+"title": "Collection Exclusive Bambinos 2026",
+"description": "Le catalogue complet de nos créations d'espaces sur mesure pour enfants, incluant chambres, lits cabanes et dressings.",
+"coverImage": "/uploads/images/bambinos_hero_room.jpg",
+"pdfUrl": "/uploads/pdf/catalogue_bambinos_2026.pdf",
+"pageCount": 51,
+"year": "2026",
+"isFeatured": true
+},
+{
+"id": "cat-pdf-5",
+"title": "Guide des Matériaux & Finitions Écologiques",
+"description": "Découvrez notre sélection de bois nobles, laques végétales et textiles certifiés Oeko-Tex.",
+"coverImage": "/uploads/images/bambinos_dressing.jpg",
+"pdfUrl": "/uploads/pdf/guide_materiaux_bambinos.pdf",
+"pageCount": 59,
+"year": "2026",
+"isFeatured": false
+},
+{
+"id": "cat-pdf-6",
+"title": "Guide des Matériaux & Finitions Écologiques",
+"description": "Découvrez notre sélection de bois nobles, laques végétales et textiles certifiés Oeko-Tex.",
+"coverImage": "/uploads/images/bambinos_dressing40.jpg",
+"pdfUrl": "/uploads/pdf/guide_materiaux_bambinos.pdf",
+"pageCount": 73,
+"year": "2026",
+"isFeatured": false
+},
+{
+"id": "cat-pdf-7",
+"title": "Guide des Matériaux & Finitions Écologiques",
+"description": "Découvrez notre sélection de bois nobles, laques végétales et textiles certifiés Oeko-Tex.",
+"coverImage": "/uploads/images/bambinos_dressing06.jpg",
+"pdfUrl": "/uploads/pdf/guide_materiaux_bambinos.pdf",
+"pageCount": 89,
+"year": "2026",
+"isFeatured": false
+},
+{
+"id": "cat-pdf-8",
+"title": "Guide des Matériaux & Finitions Écologiques",
+"description": "Découvrez notre sélection de bois nobles, laques végétales et textiles certifiés Oeko-Tex.",
+"coverImage": "/uploads/images/bambinos_desk11.jpg",
+"pdfUrl": "/uploads/pdf/guide_materiaux_bambinos.pdf",
+"pageCount": 99,
+"year": "2026",
+"isFeatured": false
+}
 ]
