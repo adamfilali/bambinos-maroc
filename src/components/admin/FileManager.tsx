@@ -84,7 +84,7 @@ export const FileManager: React.FC = () => {
       id: 'f-6',
       name: 'banner_promo_ban.jpg',
       folder: 'banners',
-      url: '/uploads/images/bambinos_hero_room_ban.jpg',
+      url: '/uploads/images/bambinos_promo_ban.jpg',
       size: '450 KB (WebP Optimisé)',
       type: 'image',
       dimensions: '1920x600',
