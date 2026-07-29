@@ -2,7 +2,7 @@
   "hero": {
     "title": "Créateur d'espaces d'exception pour vos enfants",
     "subtitle": "Du mobilier haut de gamme fabriqué sur-mesure : chambres féeriques, dressings intelligents, bureaux ergonomiques et bibliothèques sur-mesure.",
-    "bgImage": "/uploads/images/bambinos_hero_room.jpg",
+    "bgImage": "/uploads/images/bambinos_promo_ban.jpg",
     "ctaText": "Découvrir la Collection",
     "ctaUrl": "#catalogue",
     "secondaryCtaText": "Demander une étude 3D"
@@ -11,8 +11,8 @@
     "title": "L'Excellence du Sur-Mesure Enfant",
     "subtitle": "Harmonie, sécurité et poésie au cœur de chaque création.",
     "text": "Chez BAMBINOS, nous croyons qu'une chambre d'enfant n'est pas seulement une pièce, mais un sanctuaire d'éveil, de jeu et d'apprentissage. Nous concevons chaque meuble avec la précision de la haute ébénisterie et la bienveillance qu'exige le monde de l'enfance.",
-    "image1": "/uploads/images/bambinos_hero_room.jpg",
-    "image2": "/uploads/images/bambinos_dressing.jpg",
+    "image1": "/uploads/images/midi.jpg",
+    "image2": "/uploads/images/commode-soft.jpg",
     "yearsExperience": 15,
     "projectsCompleted": 850,
     "satisfactionRate": 99
@@ -43,19 +43,19 @@
     {
       "title": "Chambres sur Mesure",
       "description": "Espaces complets pensés de la naissance à l'adolescence.",
-      "image": "/uploads/images/bambinos_hero_room.jpg",
+      "image": "/uploads/images/bambinos_hero_room02.jpg",
       "link": "#catalogue"
     },
     {
       "title": "Dressings & Penderies",
       "description": "Optimisation de rangement sur-mesure avec éclairage LED.",
-      "image": "/uploads/images/bambinos_dressing.jpg",
+      "image": "/uploads/images/bambinos_dressing11.jpg",
       "link": "#catalogue"
     },
     {
       "title": "Bureaux & Bibliothèques",
       "description": "Coins études ergonomiques qui évoluent avec la croissance.",
-      "image": "/uploads/images/bambinos_desk.jpg",
+      "image": "/uploads/images/desk.jpg",
       "link": "#catalogue"
     }
   ],
@@ -63,45 +63,25 @@
     {
       "title": "Suite Parentale & Niche Bébé Chic",
       "category": "Chambre Bébé",
-      "image": "/uploads/images/bambinos_hero_room.jpg",
+      "image": "/uploads/images/bambinos_hero_room40.jpg",
       "description": "Intégration d'un berceau évolutif en chêne dans une suite aux teintes champagne."
     },
     {
       "title": "Dressing Intégré & Penderie Enfant",
       "category": "Dressing",
-      "image": "/uploads/images/bambinos_dressing.jpg",
+      "image": "/uploads/images/bambinos_dressing_nuage.jpg",
       "description": "Dressing d'angle sur toute la hauteur sous plafond avec miroirs biseautés."
     },
     {
       "title": "Espace Étude & Bibliothèque Murale",
       "category": "Bureau",
-      "image": "/uploads/images/bambinos_desk.jpg",
+      "image": "/uploads/images/bambinos_desk05.jpg",
       "description": "Espace de travail double avec étagères rétroversées pour frères et sœurs."
     }
   ],
-  "testimonials": [
-    {
-      "name": "SOPHIE & MARC L.",
-      "role": "Parents de Gabriel & Rose",
-      "comment": "Bambinos a transformé la chambre de nos jumeaux en un véritable havre de paix. Le lit superposé avec escalier coffre est d'une qualité inégalée.",
-      "rating": 5,
-      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
-    },
-    {
-      "name": "AMINE K.",
-      "role": "Architecte d'Intérieur",
-      "comment": "Je collabore régulièrement avec Bambinos pour mes clients exigeants. Leur finition en chêne naturel et leur réactivité sur le sur-mesure sont irréprochables.",
-      "rating": 5,
-      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80"
-    },
-    {
-      "name": "CLAIRE D.",
-      "role": "Maman de Louis",
-      "comment": "Du premier plan 3D à l'installation finale, le niveau de soin et d'attention portée aux détails nous a époustouflés. Bravo à toute l'équipe !",
-      "rating": 5,
-      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80"
-    }
-  ],
+
+
+
   "faqs": [
     {
       "question": "Combien de temps faut-il pour réaliser une chambre sur-mesure ?",

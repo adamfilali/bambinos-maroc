@@ -35,9 +35,9 @@
     "price": 34500,
     "promoPrice": 31900,
     "images": [
-      "/uploads/images/bambinos_hero_room.jpg",
-      "/uploads/images/bambinos_dressing.jpg",
-      "/uploads/images/bambinos_desk.jpg"
+      "/uploads/images/bambinos_hero_room20.jpg",
+      "/uploads/images/bambinos_dressing10.jpg",
+      "/uploads/images/bambinos_desk05.jpg"
     ],
     "pdfUrl": "/uploads/pdf/fiche_technique_concept_nuage.pdf",
     "videoUrl": "",
@@ -84,8 +84,8 @@
     "price": 28900,
     "promoPrice": 26500,
     "images": [
-      "/uploads/images/bambinos_dressing.jpg",
-      "/uploads/images/bambinos_hero_room.jpg"
+      "/uploads/images/bambinos_dressing03.jpg",
+      "/uploads/images/bambinos_hero_room01.jpg"
     ],
     "pdfUrl": "/uploads/pdf/fiche_technique_horizon.pdf",
     "availability": "Sur mesure",
@@ -129,7 +129,7 @@
     ],
     "price": 16800,
     "images": [
-      "/uploads/images/bambinos_desk.jpg",
+      "/uploads/images/bambinos_desk05.jpg",
       "/uploads/images/bambinos_hero_room.jpg"
     ],
     "pdfUrl": "/uploads/pdf/fiche_technique_atelier_eveil.pdf",
@@ -176,7 +176,7 @@
     "price": 32000,
     "promoPrice": 29800,
     "images": [
-      "/uploads/images/bambinos_hero_room.jpg"
+      "/uploads/images/bambinos_hero_room02.jpg"
     ],
     "availability": "Sur mesure",
     "displayOrder": 4,
